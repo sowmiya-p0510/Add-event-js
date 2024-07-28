@@ -1,0 +1,46 @@
+body{
+    background-color: lightskyblue;
+}
+#event {
+    text-align: center;
+    margin-top: 20px;
+}
+.Detail label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+}
+.Detail input {
+    width: 200px;
+}
+.Detail select{
+    width: 200px;
+}
+
+.Detail{
+    padding:10px
+}
+#eventdata{
+    display: none;
+    margin: 30px 0px 0px 400px;
+}
+
+#eventdata th,td{
+    border: 2px solid plum;
+}
+a{
+    text-decoration: underline;
+}
+a:hover{
+    color: red;
+}
+#eventCost{
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+

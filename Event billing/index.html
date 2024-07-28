@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event Billing</title>
+        <link href = "app.css" rel="styleSheet">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div id = "event">
+            <div class = "event Detail">
+                <label>ID</label>
+                <input type="number" id = "eventId" name="eventId" value= "" disabled>
+            </div>
+            <div class = "event Detail">
+                <label>Event Name</label>
+                <select name = "eventName" value="" id = "eventName">
+                    <option>BirthDay party</option>
+                    <option>Wedding party</option>
+                    <option>corporate Event</option>
+                </select>
+            </div>
+            <div class = "event Detail">
+                <label>Cost</label>
+                <select name = "cost" value="1000" id = "cost">
+                    <option>1000</option>
+                    <option>10000</option>
+                    <option>15000</option>
+                </select>
+            </div>
+            <div class = "event Detail">
+                <label>Event Date</label>
+                <input type="date" id = "date" name="date" value="">
+            </div>
+            <button onclick= "validateEventdata()" value ="submit" type="submit">submit</button>
+        </div>
+        <table id="eventdata"></table>
+        <div id="eventCost"></div>
+    </body>
+    
+</html>
